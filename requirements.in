@@ -1,0 +1,5 @@
+dbt-core @ git+https://github.com/fal-ai/dbt-core.git@724a93e7346a0b661fd82bf02c34e101101f8f29#subdirectory=core
+dbt-fal @ git+https://github.com/fal-ai/fal.git@74365568174f046a4bf13774f91f6beea31432bc#subdirectory=adapter
+fal @ git+https://github.com/dbeatty10/fal.git@79f61b671eade4cf6402b782d9a6f922756621cf
+dbt-duckdb==1.2.0
+duckcli==0.2.1

@@ -1,0 +1,8 @@
+demo_dbt_py:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "demo.duckdb"
+      python_adapter:
+        type: fal

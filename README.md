@@ -62,7 +62,6 @@ source env/bin/activate
 <summary>POSIX fish</summary>
 
 ```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 python3 -m venv env
 source env/bin/activate.fish
 python3 -m pip install --upgrade pip
@@ -75,7 +74,6 @@ source env/bin/activate.fish
 <summary>POSIX csh/tcsh</summary>
 
 ```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 python3 -m venv env
 source env/bin/activate.csh
 python3 -m pip install --upgrade pip
@@ -88,7 +86,6 @@ source env/bin/activate.csh
 <summary>POSIX PowerShell Core</summary>
 
 ```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 python3 -m venv env
 env/bin/Activate.ps1
 python3 -m pip install --upgrade pip
@@ -101,7 +98,6 @@ env/bin/Activate.ps1
 <summary>Windows cmd.exe</summary>
 
 ```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 python -m venv env
 env\Scripts\activate.bat
 python -m pip install --upgrade pip
@@ -114,7 +110,6 @@ env\Scripts\activate.bat
 <summary>Windows PowerShell</summary>
 
 ```shell
-git clone https://github.com/dbt-labs/jaffle_shop_duckdb.git
 python -m venv env
 env\Scripts\Activate.ps1
 python -m pip install --upgrade pip

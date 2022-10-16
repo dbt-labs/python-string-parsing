@@ -129,7 +129,7 @@ dbt build
 
 Examine the output:
 ```
-duckcli demo.duckdb --table --execute "select id, transaction_time, parsed_transaction_time from parse_datetimes order by id"
+duckcli demo.duckdb --table --execute "select id, transaction_time, parsed_transaction_time from transactions order by id"
 ```
 
 ## Wrap up

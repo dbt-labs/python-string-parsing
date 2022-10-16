@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: transactions
+    columns:
+      - name: parsed_transaction_time
+        tests:
+          - not_null

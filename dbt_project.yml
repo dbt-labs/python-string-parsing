@@ -1,0 +1,23 @@
+name: 'demo_dbt_py'
+
+config-version: 2
+version: '1.0.0'
+require-dbt-version: [">=1.0.0", "<2.0.0"]
+
+profile: 'demo_dbt_py'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analysis"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+    - "target"
+    - "dbt_modules"
+    - "logs"
+
+models:
+  demo_dbt_py:
+      materialized: table

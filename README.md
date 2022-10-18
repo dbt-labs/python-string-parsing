@@ -1,4 +1,4 @@
-# demo-python-blog
+# python-string-parsing
 
 ## Prerequisites
 

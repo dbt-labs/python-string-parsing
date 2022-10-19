@@ -144,6 +144,6 @@ deactivate
 ---
 
 ## Credits
-This demo is powered by components built by [Features & Labels](https://fal.ai/).
+This demo is powered by components built by [Features & Labels](https://github.com/fal-ai/fal#fal-do-more-with-dbt).
 
 You can check out their [Loom demo](https://www.loom.com/share/26c9da8814d4435cb763cfb4eb3ab5dc) and [instructions](https://featuresandlabels.notion.site/Public-Set-up-dbt-fal-Act-1-568b7b0692514f52be161e1129d7dcc8).

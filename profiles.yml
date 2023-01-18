@@ -4,5 +4,3 @@ demo_dbt_py:
     dev:
       type: duckdb
       path: "demo.duckdb"
-      python_adapter:
-        type: fal
